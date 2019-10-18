@@ -58,6 +58,13 @@
   cursor: pointer;
 }
 
+.product-list .actions span {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .product-list .actions button[disabled] {
   opacity: 0.5;
   cursor: default;

@@ -60,6 +60,7 @@ export default class Main extends Component {
           <button disabled={page === 1} onClick={this.prevPage}>
             Anterior
           </button>
+          <span>Página {page}</span>
           <button disabled={page === productInfo.pages} onClick={this.nextPage}>
             Próximo
           </button>
